@@ -1,0 +1,45 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+
+# Ignore virtual environment
+venv/
+
+# Ignore logs
+logs/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore any compiled binaries or build output
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore any generated files
+*.csv
+*.log
+*.xlsx
+
+# Ignore secret or sensitive information
+config/config.py
+
+# Ignore local development environment settings
+.env
+
+# Ignore any backup files
+*~
+
+# Ignore any temporary files
+.tmp/
+
+# Ignore any files generated during testing
+*.coverage
+.coverage.*
